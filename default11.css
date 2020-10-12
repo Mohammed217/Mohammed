@@ -1,0 +1,645 @@
+	html, body,
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #F6F4F3;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 12pt;
+		font-weight: 400;
+		color: #4E4D4D;
+	}
+	
+	
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+	}
+	
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+	
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+	
+	p
+	{
+		line-height: 180%;
+	}
+	
+	strong
+	{
+	}
+	
+	a
+	{
+		color: #383838;
+	}
+	
+	a:hover
+	{
+		text-decoration: none;
+	}
+	
+	.container
+	{
+		width: 1400px;
+		margin: 0px auto;
+	}
+li a:hover {
+    
+    
+    background-color: wh;
+
+    
+}
+/* dropdown menu*/
+ul li ul{
+    display:none;
+    position: absolute;
+    background-color: ghostwhite;
+    padding: 10px;
+    border-radius: 4px;
+    opacity: 0.6;
+}
+av ul li:hover ul{
+    display:block;
+    
+    opacity: 0.6;
+}
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.In {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+
+
+/*********************************************************************************/
+/* Image Style for banner and making the image in the center                                                                  */
+/*********************************************************************************/
+.BackImg{
+    
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/clean-html-code-650x300.jpg); height: 280px;
+    background-size: cover; background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  position: relative;
+ 
+    
+}
+   
+    .ImgCenter{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    
+    width: 100%;
+    height: 60px;
+    background-color: ghostwhite;
+}
+nav p{
+    
+    font-family: cursive;
+    color: black;
+    font-size: 24px;
+    line-height: 55px;
+    float: left;
+    padding: 0px 20px;
+    
+}
+nav ul{
+    
+    float:left;
+    
+}
+nav ul li {
+    
+    float: left;
+    list-style: none;
+    position: relative;
+}
+nav ul li a{
+    display: block;
+      font-family: sans-serif;
+    color: black;
+    font-size: 20px;
+    
+    float: left;
+    padding: 18px 14px;
+    text-decoration: none;
+    
+    
+}
+nav ul li ul{
+    display:none;
+    position: absolute;
+    background-color: ghostwhite;
+    padding: 10px;
+    border-radius: 4px;
+    opacity: 0.6;
+}
+nav ul li:hover ul{
+    display:block;
+    
+    opacity: 0.6;
+}
+nav ul li ul li{
+    width: 180px;
+    padding: 8px 14px;
+    border-radius: 4px;
+}
+nav ul li ul li a{
+    padding: 10px 14px;
+    
+}
+nav ul li ul li a:hover{
+    background-color: dimgray;
+    
+}
+.dropdown {
+ 
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:  black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 0;
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+/*********************************************************************************/
+/* List Styles                                                                   */
+/*********************************************************************************/
+
+	ul.style1
+	{
+	}
+
+
+/*********************************************************************************/
+/* Social Icon Styles                                                            */
+/*********************************************************************************/
+
+	ul.contact
+	{
+		overflow:  hidden;
+		margin: 0em 0 3em 0;
+		padding-top: 1em;
+		text-align: center;
+	}
+	
+	ul.contact li
+	{
+		display: inline-block;
+		padding: 0em 0.30em;
+		font-size: 1em;
+	}
+	
+	ul.contact li span
+	{
+		display: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	ul.contact li a
+	{
+		color: #FFF;
+	}
+	
+	ul.contact li a:before
+	{
+		display: inline-block;
+		background: #3f3f3f;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 20px;
+		text-align: center;
+		color: #FFFFFF;
+	}
+#social{
+    
+    
+   background-color: darkslategrey;
+    
+}
+
+/*********************************************************************************/
+/* Major Styles                                                                  */
+/*********************************************************************************/
+
+	.major
+	{
+		overflow: hidden;
+		margin-bottom: 4em;
+		text-align: center;
+	}
+	
+	.major h2
+	{
+		letter-spacing: 0.10em;
+		text-transform: uppercase;
+		font-size: 3em;
+		font-weight: 700;
+		color: #3f3f3f;
+	}
+
+	.major .byline
+	{
+		display: block;
+		padding-top: 0.2em;
+		font-weight: 300;
+		font-size: 2em;
+	}
+
+/*********************************************************************************/
+/* Title Styles                                                                  */
+/*********************************************************************************/
+
+	.title
+	{
+		text-align: center;
+	}
+	
+	.title h2
+	{
+		letter-spacing: 0.10em;
+		text-transform: uppercase;
+		font-weight: 700;
+		color: #3f3f3f;
+	}
+
+	.title .byline
+	{
+		display: block;
+		padding-top: 1em;
+		font-weight: 300;
+		font-size: 1.1em;
+	}
+
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+.button
+{
+	display: inline-block;
+	margin-top: 2em;
+	padding: 1em 3em;
+	background: #C4376B;
+	border-radius: 7px;
+	-moz-transition: opacity 0.25s ease-in-out;
+	-webkit-transition: opacity 0.25s ease-in-out;
+	-o-transition: opacity 0.25s ease-in-out;
+	-ms-transition: opacity 0.25s ease-in-out;
+	transition: opacity 0.25s ease-in-out;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.90em;
+	color: #FFF;
+}
+
+.button:hover
+{
+	background: #D64077;
+}
+
+.button:active
+{
+	background: #BD3567;
+}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		background: #3f3f3f;
+        overflow: hidden;
+	}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		padding: 4em 0em;
+		text-transform: uppercase;
+	}
+
+	#logo h1
+	{
+		text-align: center;
+		font-weight: 900;
+		font-size: 2.5em;
+	}
+	
+	#logo h1 a
+	{
+	}
+
+	#logo span
+	{
+		padding: 0em 0em 0em 0.5em;
+	}
+	
+	#logo h1:before
+	{
+		
+	}
+	
+	#logo a 
+	{
+		color: #3f3f3f;
+	}
+
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	#menu ul
+	{
+		margin: 0;
+		padding: 20px 0px 20px 0px;
+		list-style: none;
+		line-height: normal;
+		text-align: center;
+	}
+	
+	#menu li
+	{
+		display: inline-block;
+	}
+	
+	#menu a
+	{
+		display: block;
+		padding: 1em 2em;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 1em;
+		font-weight: 700;
+		color: #FFF;
+	}
+	
+	#menu .current_page_item a
+	{
+	}
+	
+	#menu a:hover
+	{
+	}
+
+
+    
+}
+
+
+
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+	}
+
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+	#page
+	{
+		overflow: hidden;
+		padding: 6em 0em;
+		border-top: 1px solid #E5E5E5;
+	}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+	#content
+	{
+		float: left;
+		/* width: 588px;*/
+	}
+	
+	#content .title
+	{
+		padding-bottom: 2em;
+		text-align: left;
+	}
+	
+	#content h2
+	{
+		font-size: 2em;
+	}
+	
+	#content .byline
+	{
+		padding-top: 0;
+		font-size: 1.5em;
+	}
+.dropdown:hover {
+  display: block;
+}
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+
+	#sidebar
+	{
+		float: right;
+		width: 588px;
+	}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+	{
+	}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+	}
+	
+	#copyright p
+	{
+		letter-spacing: 0.20em;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 0.80em;
+		color: #6F6F6F;
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+		color: #8C8C8C;
+	}
+
+/*********************************************************************************/
+/* Featured                                                                      */
+/*********************************************************************************/
+
+	#featured-wrapper
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		background: #FFF;
+	}
+	
+	#featured h2
+	{
+		text-align: center;
+	}
+
+	#featured .icon
+	{
+		position: relative;
+		display: block;
+		margin: 0px auto 20px auto;
+		line-height:  normal;
+		font-size: 6em;
+		text-align: center;
+		color: #3f3f3f;
+	}
+
+	.column1,
+	.column2,
+	.column3,
+	.column4
+	{
+		width: 282px;
+	}
+	
+	.column1,
+	.column2
+	{
+		float: left;
+		margin-right: 24px;
+	}
+	
+	.column3
+	{
+		float: left;
+	}
+	
+	.column4
+	{
+		float: right;
+	}
+
+/*********************************************************************************/
+/* Portfolio                                                                     */
+/*********************************************************************************/
+
+	#portfolio-wrapper
+	{
+		padding: 6em 0em;
+	}
+	
+	#portfolio
+	{
+		overflow: hidden;
+		text-align: center;
+	}
+	
+	#portfolio img
+	{
+		margin: 0;
+		padding: 0;
+	}
+	
+	#portfolio .box
+	{
+		padding: 30px;
+		background: #FFF;
+		border-bottom: 2px solid #7C7C7C;
+		border-right: 1px solid #DADADA;
+		border-left: 1px solid #DADADA;
+	}
